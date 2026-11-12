@@ -1,3 +1,84 @@
 .jobs-section {
-  margin-top: 130px;
+  margin-block: 130px;
+}
+
+.jobs-section-title {
+  font-size: 34px;
+  margin-block: 0;
+}
+
+.jobs-section-subtitle {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #797979;
+}
+
+.jobs-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.job-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 1;
+  min-width: 0;
+  padding: 16px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.jobs-container h3,
+.jobs-container p {
+  margin-block: 4px;
+}
+
+.job-icon-container {
+  color: #fff;
+  padding: 18px;
+  border-radius: 14px;
+}
+
+.job-icon-container i {
+  font-size: 20px;
+}
+
+.job-company-info {
+  margin-left: 24px;
+}
+
+.job-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-basis: 100%;
+  margin-top: 20px;
+}
+
+.job-info div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.job-description {
+  margin-top: 18px;
+}
+
+.job-icon {
+  color: #bababa;
+}
+
+.first-job .job-icon-container {
+  background-color: rgb(101, 87, 254);
+}
+
+.second-job .job-icon-container {
+  background-color: rgb(216, 100, 255);
+}
+
+.third-job .job-icon-container {
+  background-color: rgb(66, 175, 249);
 }
