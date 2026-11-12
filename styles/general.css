@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #046ca8
+}
+
+.main {
+  padding: 0px 260px;
+}
+
+.highlighted-text {
+  color: var(--primary-color);
+}
